@@ -6,17 +6,17 @@ In Duniix Decentralized Social Media Link #1LSD, a web page is opened with the f
 
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
-https://www.zdnet.com/article/ballmer-i-may-have-called-linux-a-cancer-but-now-i-love-it/
+
 
 The word "karma" might have become a common vocabulary in the Western world due to Reddit (LOL!)
 
 But almost 2 decades ago, Steve Balmer, then CEO of Microsoft, called Linux (and perhaps the "free software" movement that supported it) "Communism"!!
 
+- https://www.zdnet.com/article/ballmer-i-may-have-called-linux-a-cancer-but-now-i-love-it/
+
 It is now "poetic karma" that GitHub, now acquired by Microsoft, provides a "back door" to break the monopolies, that are the "centralized" Internet dominated by MAGA (Microsoft Amazon Google Apple).
 
 In order to build a "Decentralized Internet" (hence DUNIIX, or Decentralized UN`*`X), we need a way for the billions of mobile devices and web browsers around the world to connect to ___individual programmers and users' server nodes running on their mobile phones or desktop computers___. 
-
-Some readers may find the materials in the USER's Manual too advanced for ordinary users, especially in the <a href="https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md#-users-commands-">User's Commands</a> section.
 
 The following combination makes this possible:
 
@@ -55,14 +55,25 @@ In line 24, the web address is redirected to a virtual machine running Linux Apa
 
 Creating a backdoor using GitHub personal page and hacking `window.location` is only half the story to set up a Decentralized Server Node.
 
-The other half of the story is even more challenging, involving not one but THREE ___FUNDAMENTAL PARADIGM SHIFTS___ involving:
+The other half of the story is even more challenging, involving not one but ___THREE FUNDAMENTAL PARADIGM SHIFTS___ involving:
 
 - 1. Decentralized User Authentication Scheme (DUAS) vs. Centralized User Authentication Scheme (CUAS)
 - 2. SQL vs. Graph Database vs. Filesystem as Graph Database
 - 3. Multilingual Heterogeneous Metaprogramming — One Universal Metaprogramming Script for Front-End (JavaScript and HTML) and Back-End (PHP and Database)
 
+Instead of diving deep into each of the topics above, we shall illustrate them with the commands in
+ <a href="https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md#-users-commands-">User's Commands</a> section:
+
+```js
+a={ link_0:'https://www.youtube.com/watch?v=4wTdgAJwdV4', 
+title:'Electric Light Orchestra - Last Train To London 
+(Extended Rework Dj S Bootleg Dance Remix Edit) [1979 HQ]'}
+
+f(': B_F 3 4 + '+encodeURI(JSON.stringify(a))+' ud: adam-006 duid: s: ; AJAX')
+```
+
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
 https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md
 
-
+Some readers may find the materials in the USER's Manual too advanced for ordinary users, especially in the
