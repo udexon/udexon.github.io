@@ -16,6 +16,11 @@ In order to build a "Decentralized Internet" (hence DUNIIX, or Decentralized UN`
 
 Some readers may find the materials in the USER's Manual too advanced for ordinary users, especially in the <a href="https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md#-users-commands-">User's Commands</a> section.
 
+The following combination makes this possible:
+
+1. GitHub personal website: `user.github.io`
+2. `ngrok` giving away 1 free permanent connection for each GitHub user
+
 https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md
 
 
