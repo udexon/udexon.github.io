@@ -21,6 +21,20 @@ The following combination makes this possible:
 1. GitHub personal website: `user.github.io`
 2. `ngrok` giving away 1 free permanent connection for each GitHub user
 
+### 2. `window.location` Hack
+
+There have been so many layers of modules in "cloud computing" (whatever it means!!) that few people would know about the secrets to be revealed below!!
+
+- <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
+
+The web adress above is rather intuitive for ordinary users (we hope!!), as it only consists of:
+
+- domain.name/service.name/?parameters
+
+
+
+- <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
+
 https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md
 
 
