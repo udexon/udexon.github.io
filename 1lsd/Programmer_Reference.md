@@ -29,7 +29,9 @@ There have been so many layers of modules in "cloud computing" today (whatever i
 
 The web adress above is rather intuitive for ordinary users (we hope!!), as it only consists of:
 
-- domain.name/service.name/?parameters
+- `domain.name/service.name/?parameters`
+
+The `parameters` can be extracted by "hacking" the JavaScript variable `window.location` as shown in the following file:
 
 
 
