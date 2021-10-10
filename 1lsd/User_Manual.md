@@ -1,4 +1,4 @@
-The following URL A will be redirected to URL B, as shown below:
+1. The following URL A will be redirected to URL B, as shown below:
 
 ```
 A: https://udexon.github.io/1lsd/?adam-006
@@ -9,7 +9,7 @@ Click the following link to see the live action:
 
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
-Once the page is loaded, you may enter the following commands in the browser console, by pressing F12 on your keyboard:
+2. Once the page is loaded, you may enter the following commands in the browser console, by pressing F12 on your keyboard:
 
 ```js
 a={ link_0:'https://www.youtube.com/watch?v=4wTdgAJwdV4', 
@@ -30,7 +30,7 @@ total 16
 -rw-r--r--. 1 hongwu hongwu 153 Oct 10 11:44 welcome
 ```
 
-The information stored in these files can be accessed with the following link:
+3. The information stored in these files can be accessed with the following link:
 
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
