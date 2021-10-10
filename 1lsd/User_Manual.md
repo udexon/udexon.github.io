@@ -4,7 +4,12 @@ The following URL A will be redirected to URL B, as shown below:
 A: https://udexon.github.io/1lsd/?adam-006
 B: https://add5-113-211-144-109.ngrok.io/Duniix/duid-nn.php?nn=adam&id=006
 ```
+
+Click the following link to see the live action:
+
 <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
+
+Once the page is loaded, you may enter the following in the browser console, by pressing F12 on your keyboard:
 
 ```js
 a={ link_0:'https://www.youtube.com/watch?v=4wTdgAJwdV4', 
