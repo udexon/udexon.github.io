@@ -11,3 +11,7 @@ https://udexon.github.io/1lsd/?adam-006
 ```
 
 <a href="https://udexon.github.io/1lsd/?adam-006">adam-006</a>
+
+```
+document.getElementsByTagName('div')[1].style.display="none"
+```
