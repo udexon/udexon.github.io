@@ -1,3 +1,8 @@
+```
+https://udexon.github.io/1lsd/?adam-006
+```
+<a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
+
 ```js
 a={ link_0:'https://www.youtube.com/watch?v=4wTdgAJwdV4', 
 title:'Electric Light Orchestra - Last Train To London 
