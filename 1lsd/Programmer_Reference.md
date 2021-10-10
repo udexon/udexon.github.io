@@ -12,6 +12,8 @@ But almost 2 decades ago, Steve Balmer, then CEO of Microsoft, called Linux (and
 
 It is now "poetic karma" that GitHub, now acquired by Microsoft, provides a "back door" to break the monopolies, that are the "centralized" Internet dominated by MAGA (Microsoft Amazon Google Apple).
 
+In order to build a "Decentralized Internet" (hence DUNIIX, or Decentralized UN`*`X), we need a way for the billions of mobile devices and web browsers around the world to connect to ___individual programmers and users' server nodes running on their mobile phones or desktop computers___. 
+
 Some readers may find the materials in the USER's Manual too advanced for ordinary users, especially in the <a href="https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md#-users-commands-">User's Commands</a> section.
 
 https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md
