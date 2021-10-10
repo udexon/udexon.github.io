@@ -1,5 +1,8 @@
+The following URL A will be redirected to URL B, as shown below:
+
 ```
-https://udexon.github.io/1lsd/?adam-006
+A: https://udexon.github.io/1lsd/?adam-006
+B: https://add5-113-211-144-109.ngrok.io/Duniix/duid-nn.php?nn=adam&id=006
 ```
 <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
