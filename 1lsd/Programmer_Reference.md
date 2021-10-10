@@ -35,6 +35,22 @@ The `parameters` can be extracted by "hacking" the JavaScript variable `window.l
 
 - https://github.com/udexon/udexon.github.io/blob/main/1lsd/index.html
 
+In line 14, `adam-006` is first extracted with `.split('?')` (tokenized by `?` as separator).
+
+```js
+    duid = window.location.toString().split('?')[1].split('-')
+```
+
+Further, `adam` and `006` are tokenized by `-` as separator and stored in `duid`.
+
+In line 24, the web address is redirected to a virtual machine running Linux Apache with `ngrok` tunnel:
+
+```js
+    window.location = "https://add5-113-211-144-109.ngrok.io/Duniix/duid-nn.php?nn="+nn+"&id="+id
+```
+
+
+
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
 https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md
