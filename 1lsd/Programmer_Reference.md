@@ -33,7 +33,7 @@ The web adress above is rather intuitive for ordinary users (we hope!!), as it o
 
 The `parameters` can be extracted by "hacking" the JavaScript variable `window.location` as shown in the following file:
 
-
+- https://github.com/udexon/udexon.github.io/blob/main/1lsd/index.html
 
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
