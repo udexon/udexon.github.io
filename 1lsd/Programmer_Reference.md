@@ -23,7 +23,7 @@ The following combination makes this possible:
 
 ### 2. `window.location` Hack
 
-There have been so many layers of modules in "cloud computing" (whatever it means!!) that few people would know about the secrets to be revealed below!!
+There have been so many layers of modules in "cloud computing" today (whatever it means!!) that few people would know about the secrets to be revealed below!!
 
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
