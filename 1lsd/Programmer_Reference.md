@@ -74,35 +74,17 @@ f(': B_F 3 4 + '+encodeURI(JSON.stringify(a))+' ud: adam-006 duid: s: ; AJAX')
 
 In a "conventional" web application, these commands will be part of the GUI/MVC (Graphical User Interface / Model View Controller), i.e. the link and title would be captured by input cells, before submitted from the front end to back end using the ubuiquitous AJAX protocol.
 
-```PHP
-function fgl_duid()
-{
-    global $S;
+In the code above, `f()` is a JavaScript function that invokes Phoscript, a Reverse Polish Nation, stack machine interpreter, that operates BOTH in the front end AND the back end.
 
-    $d = array_pop($S);
-    mkdir( "Graph/duid/".$d );
-    
-    $a = json_decode( array_pop($S), true );
-    
-    echo var_src( $a );
-    
-    $WD = "Graph/duid/".$d."/";
-    
-    foreach( $a as $k => $b ) {
-    
-        $S[]="  ".$k." ".$b."  ";
-        
-        file_put_contents( $WD.$k, $b ); 
-
-file_put_contents( $WD.'embed', '<iframe width="560" height="315" src="https://www.youtube.com/embed/'.substr($a['link_0'],32,11).'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' );
-
-copy("Graph/duid/adam-005/welcome", $WD."welcome");
-    
-    $S[] = "Graph/duid/".$d;
-    
-}
-
+```js
+f(': B_F 3 4 + '+encodeURI(JSON.stringify(a))+' ud: adam-006 duid: s: ; AJAX')
 ```
+
+The object `a` which stores the link and title of the video, is encoded as a string with `encodeURI()` and `JSON.stringify()` and sent to the back end using AJAX.
+
+In the back end, the encoded string is decoded by `ud:`, and then `duid:` is called, which is mapped to `fgl_duid()` as shown in the file below:
+
+- https://github.com/udexon/udexon.github.io/blob/main/1lsd/fgl_duid.php
 
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
