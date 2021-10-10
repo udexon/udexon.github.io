@@ -53,7 +53,13 @@ In line 24, the web address is redirected to a virtual machine running Linux Apa
 
 ### 3. Sub-Megabyte MetaMVC (Model View Controller)
 
+Creating a backdoor using GitHub personal page and hacking `window.location` is only half the story to set up a Decentralized Server Node.
 
+The other half of the story is even more challenging, involving not one but THREE ___FUNDAMENTAL PARADIGM SHIFTS___ involving:
+
+- 1. Decentralized User Authentication Scheme (DUAS) vs. Centralized User Authentication Scheme (CUAS)
+- 2. SQL vs. Graph Database vs. Filesystem as Graph Database
+- 3. Multilingual Heterogeneous Metaprogramming — One Universal Metaprogramming Script for Front-End (JavaScript and HTML) and Back-End (PHP and Database)
 
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
