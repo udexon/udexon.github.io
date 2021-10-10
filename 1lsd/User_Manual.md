@@ -5,3 +5,8 @@ title:'Electric Light Orchestra - Last Train To London
 
 f(': B_F 3 4 + '+encodeURI(JSON.stringify(a))+' ud: adam-006 duid: s: ; AJAX')
 ```
+
+‵‵`
+https://udexon.github.io/1lsd/?adam-006
+```
+
