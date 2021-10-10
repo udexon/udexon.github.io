@@ -1,4 +1,4 @@
-## USER's Manual
+## Duniix Decentralized Social Media Link #1LSD USER's Manual
 
 1. The following URL A will be redirected to URL B, as shown below:
 
