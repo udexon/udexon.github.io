@@ -72,6 +72,9 @@ title:'Electric Light Orchestra - Last Train To London
 f(': B_F 3 4 + '+encodeURI(JSON.stringify(a))+' ud: adam-006 duid: s: ; AJAX')
 ```
 
+In a "conventional" web application, these commands will be part of the GUI/MVC (Graphical User Interface / Model View Controller), i.e. the link and title would be captured by input cells, before submitted from the front end to back end using the ubuiquitous AJAX protocol.
+
+
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
 https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md
