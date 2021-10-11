@@ -86,6 +86,19 @@ In the back end, the encoded string is decoded by `ud:`, and then `duid:` is cal
 
 - https://github.com/udexon/udexon.github.io/blob/main/1lsd/fgl_duid.php
 
+The commands above create the following files in the following directory:
+
+```
+hongwu@localhost:/var/www/html/Duniix/auth/Graph/duid/adam-006$ ls -l
+total 16
+-rw-r--r--. 1 hongwu hongwu 248 Oct 10 11:44 embed
+-rw-r--r--. 1 hongwu hongwu  43 Oct 10 11:44 link_0
+-rw-r--r--. 1 hongwu hongwu 150 Oct 10 11:44 title
+-rw-r--r--. 1 hongwu hongwu 153 Oct 10 11:44 welcome
+```
+
+
+
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
 
 https://github.com/udexon/udexon.github.io/blob/main/1lsd/User_Manual.md
