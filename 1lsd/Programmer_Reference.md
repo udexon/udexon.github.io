@@ -97,6 +97,7 @@ total 16
 -rw-r--r--. 1 hongwu hongwu 153 Oct 10 11:44 welcome
 ```
 
+These files correspond to database records (Model in MVC) in conventional web app.
 
 
 - <a href="https://udexon.github.io/1lsd/?adam-006">https://udexon.github.io/1lsd/?adam-006</a>
