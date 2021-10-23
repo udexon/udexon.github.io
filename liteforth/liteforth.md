@@ -4,4 +4,4 @@
 - http://bit.do/liteforth
 
 2. Open the following link:
-- http:bit.do/liteforth?adam-001
+- http://bit.do/liteforth?adam-001
