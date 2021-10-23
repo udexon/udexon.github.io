@@ -8,3 +8,6 @@
 
 3. This document can be accessed via:
 - http://bit.do/liteforth-md
+
+4. Execute a Liteforth command in URL:
+- http://bit.do/liteforth?3%204%20+%20s:
