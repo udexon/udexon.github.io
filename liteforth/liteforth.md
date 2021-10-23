@@ -5,3 +5,6 @@
 
 2. Open the following link:
 - http://bit.do/liteforth?adam-001
+
+3. This document can be accessed via:
+- http://bit.do/liteforth-md
