@@ -15,7 +15,11 @@ April 2021 1230 ===
     
     console.log( window.location, ' token ', window.location.toString().split('?')[1] )
     
-    duid = window.location.toString().split('?')[1].split('-')
+    param = window.location.toString().split('?')[1].split('&')
+    
+    // duid = window.location.toString().split('?')[1].split('-')
+    
+    duid = param[0].split('-')
     
     if (duid.length > 1) {
       tnn = duid[0]
