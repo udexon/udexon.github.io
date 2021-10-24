@@ -17,11 +17,16 @@ April 2021 1230 ===
     
     duid = window.location.toString().split('?')[1].split('-')
     
-    nn = duid[0]
+    if (duid.length > 1) {
+      nn = duid[0]
+      id = duid[1]
+    }
+    else {
+      nn = duid[0]
+      // must redirect to default duid adam-001
+    }
     
-    id = duid[1]
-    
-    alert( '2021 10 23 + ', window.location, ' + end' )
+    alert( '2021 10 23 + ', window.location.toString(), ' + end' )
     
     // window.location = "https://add5-113-211-144-109.ngrok.io/Duniix/duid-nn.php?nn=adam"
     
