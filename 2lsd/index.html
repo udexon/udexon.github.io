@@ -21,11 +21,17 @@ April 2021 1230 ===
     
     duid = param[0].split('-')
     
-    if (duid.length > 1) {
+    if (duid.length > 1) 
+    {
       tnn = duid[0]
       id = duid[1]
     }
-    else {
+    else if (param.length > 1) 
+    {
+      nn = param[1]
+    }
+    else
+    {
       nn = duid[0]
       // must redirect to default duid adam-001
     }
