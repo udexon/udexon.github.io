@@ -15,6 +15,8 @@ April 2021 1230 ===
     
     console.log( window.location, ' token ', window.location.toString().split('?')[1] )
     
+    if (typeof window.location.toString().split('?')[1] !== "undefined") {
+    
     param = window.location.toString().split('?')[1].split('&')
     
     // duid = window.location.toString().split('?')[1].split('-')
@@ -59,7 +61,8 @@ April 2021 1230 ===
     // window.location = u_ngrok +"/Duniix/duid-nn.php?nn="+nn+"&id="+id
     
     window.location = u_ngrok +"/duniix/1lsd.php?tnn="+tnn+"&id="+id+"&nn="+nn
-    
+
+    }
       </script>
 
   
