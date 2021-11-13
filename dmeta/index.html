@@ -22,7 +22,12 @@ April 2021 1230 ===
     // duid = window.location.toString().split('?')[1].split('-')
     
     duid = param[0].split('-')
+
+      
+    var HT = { "D0uZDibksg==": "https://docs.google.com/document/d/1U_fN6fbhdHBUnbibeWhgwtDbDFLSeSk3wu60VVo9ykw/", 
+               "Axy7Lh5jbw==": "https://docs.google.com/document/d/1ZfeoglyOo5FLjplUDQ2kgR-Umb0qbql_W7KqpykRaP0/" }
     
+      
     if (duid.length > 1) 
     {
       tnn = duid[0]
@@ -70,7 +75,7 @@ April 2021 1230 ===
       id  = "001"
       nn  = "anon"
       // window.location = u_ngrok +"/duniix/1lsd.php?tnn="+tnn+"&id="+id+"&nn="+nn
-
+      window.location = HT["D0uZDibksg=="]
     }
     
     // window.location = 'https://docs.google.com/document/d/1U_fN6fbhdHBUnbibeWhgwtDbDFLSeSk3wu60VVo9ykw/'
@@ -120,9 +125,6 @@ function bnToB64(bn) {
   return btoa(bin.join(''));
 }
 
-    
-   var HT = { "D0uZDibksg==": "https://docs.google.com/document/d/1U_fN6fbhdHBUnbibeWhgwtDbDFLSeSk3wu60VVo9ykw/", 
-              "Axy7Lh5jbw==": "https://docs.google.com/document/d/1ZfeoglyOo5FLjplUDQ2kgR-Umb0qbql_W7KqpykRaP0/" }
     
       </script>
 
