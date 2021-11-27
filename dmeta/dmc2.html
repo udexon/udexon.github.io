@@ -437,8 +437,42 @@ var HT = {<br>
       $('#pubkey').val(crypt.getPublicKey());
     };
 
+  var generateKeys2 = function () {
+      var sKeySize = $('#key-size').attr('data-value');
+      var keySize = parseInt(sKeySize);
+      var crypt = new JSEncrypt({default_key_size: keySize});
+      var async = $('#async-ck').is(':checked');
+      var dt = new Date();
+      var time = -(dt.getTime());
+      if (async) {
+        $('#time-report').text('.');
+        var load = setInterval(function () {
+          var text = $('#time-report').text();
+          $('#time-report').text(text + '.');
+        }, 500);
+        crypt.getKey(function () {
+          clearInterval(load);
+          dt = new Date();
+          time += (dt.getTime());
+          $('#time-report').text('Generated in ' + time + ' ms');
+          $('#privkey2').val(crypt.getPrivateKey());
+          $('#pubkey2').val(crypt.getPublicKey());
+        });
+        return;
+      }
+      crypt.getKey();
+      dt = new Date();
+      time += (dt.getTime());
+      $('#time-report').text('Generated in ' + time + ' ms');
+      $('#privkey2').val(crypt.getPrivateKey());
+      $('#pubkey2').val(crypt.getPublicKey());
+    };
+
+	  
+	  
     // If they wish to generate new keys.
     $('#generate').click(generateKeys);
+    $('#generate2').click(generateKeys2);
     generateKeys();
   });
   
