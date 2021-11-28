@@ -455,7 +455,7 @@ var HT = {<br>
       }
     });
 
-	$('#execute2').click(function () {
+    $('#execute2').click(function () {
 
       // Create the encryption object.
       var crypt = new JSEncrypt();
@@ -490,6 +490,43 @@ var HT = {<br>
         $('#crypted2').val('');
       }
     });
+
+    $('#dmc3').click(function () {
+
+      // Create the encryption object.
+      var crypt = new JSEncrypt();
+
+      // Set the private.
+      crypt.setPrivateKey($('#privkey').val());
+      //return;
+      // If no public key is set then set it here...
+      var pubkey = $('#pubkey').val();
+      if (!pubkey) {
+        $('#pubkey').val(crypt.getPublicKey());
+      }
+
+      // Get the input and crypted values.
+      var input = $('#input2').val();
+      var crypted = $('#crypted2').val();
+
+	  console.log('input2 1124 2110');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#crypted2').val(bnToB64(cyrb53($('#input2').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
 
 
     var generateKeys = function () {
