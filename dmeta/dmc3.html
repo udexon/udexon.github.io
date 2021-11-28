@@ -76,12 +76,12 @@
     
       <div class="col-lg-5">
         <label for="input">DMC3 Triplets:</label><br>
-        <textarea id="input2" name="input" style="width: 100%" rows="4">Brian will transfer USD50 to Trinity, via local banks, after Adam sends TRX-USDT50 to Brian.</textarea>
+        <textarea id="dmc3" name="input" style="width: 100%" rows="4">Brian will transfer USD50 to Trinity, via local banks, after Adam sends TRX-USDT50 to Brian.</textarea>
       </div>
 	    
       <div class="col-lg-2">
         <label>&nbsp;</label><br>
-        <button id="dmc3" class="btn btn-primary">DMC3</button>
+        <button id="bdmc3" class="btn btn-primary">DMC3</button>
       <!-- </div>
       <div class="col-lg-2" -->
 	      
@@ -89,12 +89,12 @@
         
 	      <!-- label>&nbsp;</label><br -->
 	      
-        <button id="hash4" class="btn btn-primary">Hash4</button>
+        <button id="bhash4" class="btn btn-primary">Hash4</button>
       </div>
 	    
       <div class="col-lg-5">
         <label for="crypted">Hash4 (Hash of DMC3 Triplets):</label><br>
-        <textarea id="crypted2" name="crypted" style="width: 100%" rows="4"></textarea>
+        <textarea id="hash4" name="crypted" style="width: 100%" rows="4"></textarea>
       </div>
 	    
     </div>
@@ -491,10 +491,10 @@ var HT = {<br>
       }
     });
 
-    $('#dmc3').click(function () {
+    $('#bdmc3').click(function () {
 
       // Get the input and crypted values.
-      var input = $('#input2').val();
+      var input = $('#hpbka').val();
       var crypted = $('#crypted2').val();
 
 	  console.log('input2 1124 2110');
@@ -513,6 +513,9 @@ var HT = {<br>
         $('#input2').val(decrypted);
         $('#crypted2').val('');
       }
+	    
+      $('#dmc3').val($('#hpbka').val());
+    
     });
 
     $('#bhpbka').click(function () {
