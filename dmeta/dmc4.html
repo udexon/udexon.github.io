@@ -624,10 +624,45 @@ function bnToB64(bn) {
   
 </script>
 
-</div>
+	</div>
 
+		<div class="well">
+          <h3>
+            <p>Decentralized Meta Contract (DMetaContract, DMC) is arguably the simplest smart contract ever invented. 
+			</p>
+	    <p>The simplest form of DMC consists of THREE (3) DMetaHashes, which are collectively known as DMC3 or DMC Triplets:
+		</p><ul>
+		  <li> DMetaHash of the Public Key of Party A
+		  </li><li> DMetaHash of the Public Key of Party B
+		  </li><li> DMetaHash of the Contract texts (as shown above)
+		</li></ul>
+            <br>
+            <p> DMetaHash is a 53-bit integer hash encoded in Base64 string.</p>
+            <br>
+            
+            <p> Users may enter the Contract text in the top left text box above and press the DMetaHash button to generate the Contract Contents Hash, OR enter the following in browser console 
+            to verify 
+            the DMetaHash function for themselves:
+
+            </p><ul>
+				<li><code>bnToB64(cyrb53($('#input2').val())))</code> </li>  
+				<li><code>bnToB64(cyrb53('anystring'))</code> </li>              
+            </ul>
+            
+            <br>
+            <p>The public keys of Party A and B are shown below. Users may press the HPBKA and HPBKB buttons 
+		    to generate the hash of the public keys.
+		    </p>
+
+            <br>
+	    <p>Finally, the user may press the DMC3 button to copy the DMC3 Triplets, then Hash4 to generate
+		the hash of DMC3 Triplets.
+		</p>
+
+
+		</h3></div>
 		
-  </div>
+    </div>
 		
 		
 
