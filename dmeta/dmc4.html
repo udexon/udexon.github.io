@@ -476,6 +476,31 @@
         $('#crypted2').val('');
       }
     });
+
+    $('#bdmchr').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey2').val();
+      var crypted = $('#hpbkb').val();
+
+      console.log('dmchr 1128 1835');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#hpbkb').val(bnToB64(cyrb53($('#pubkey2').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
 	  
     $('#bhash4').click(function () {
 
