@@ -542,6 +542,29 @@ var HT = {<br>
       }
     });
 
+    $('#bhash4').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey').val();
+      var crypted = $('#hpbka').val();
+
+	  console.log('bhash4 1128 1130');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#hash4').val(bnToB64(cyrb53($('#dmc4').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
 
 
     var generateKeys = function () {
