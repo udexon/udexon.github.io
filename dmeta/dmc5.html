@@ -487,8 +487,10 @@
 	    
       var dt = new Date();
 
-      $('#dmchr').val( 'On this day '+ dt.toString() +' '+ $('#hpbka').val() +' '+ $('#hpbkb').val() 
-	     +' '+ $('#crypted2').val() +"\n\n"+ 'ROOT Hash: '+ $('#hash4').val() );
+      $('#dmchr').val( 'On this day '+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
+        +"\nand\n"+ "Party A Adam Smith, having public key hash "+ $('#hpbkb').val()
+        +"have agreed on a Decentralized Meta Contract bearing hash"
+	+' '+ $('#crypted2').val() +"\n\n"+ 'ROOT Hash: '+ $('#hash4').val() );
 	    
       // Alternate the values.
       if (input) {
