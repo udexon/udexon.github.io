@@ -52,14 +52,15 @@
 
 <div class="container">
   <div class="row">
-  <div class="panel panel-default">
+    <div class="panel panel-default">
     <div class="panel-heading"><h1>DMetaContract: Decentralized Meta Contract</h1></div>
     <div class="panel-body">
 		
 		
-  <div class="panel panel-default">
+    <div class="panel panel-default">
     <div class="panel-heading"><h3>DMetaHash: Base64 53-bit Hash</h3></div>
     <div class="panel-body">
+      
       <div class="col-lg-5">
         <label for="input">Contract to hash:</label><br>
         <textarea id="input2" name="input" style="width: 100%" rows="4">Brian will transfer USD50 to Trinity, via local banks, after Adam sends TRX-USDT50 to Brian.</textarea>
@@ -70,8 +71,32 @@
       </div>
       <div class="col-lg-5">
         <label for="crypted">DMetaHash of Contract:</label><br>
-        <textarea id="crypted2" name="crypted" style="width: 100%" rows="4"></textarea>
+        <textarea id="crypted2" name="crypted" style="width: 100%" rows="4">:Contract_Hash:</textarea>
       </div>
+    
+      <div class="col-lg-5">
+        <label for="input">DMC3 Triplets:</label><br>
+        <textarea id="dmc3" name="input" style="width: 100%" rows="4">:Contract_Hash: :PBKA_Hash: :PBKB_Hash:</textarea>
+      </div>
+	    
+      <div class="col-lg-2">
+        <label>&nbsp;</label><br>
+        <button id="bdmc3" class="btn btn-primary">DMC3</button>
+      <!-- </div>
+      <div class="col-lg-2" -->
+	      
+	      <br><label>&nbsp;</label><br>
+        
+	      <!-- label>&nbsp;</label><br -->
+	      
+        <button id="bhash4" class="btn btn-primary">ROOT</button>
+      </div>
+	    
+      <div class="col-lg-5">
+        <label for="crypted">Root Hash (Hash of All Hashes):</label><br>
+        <textarea id="hash4" name="crypted" style="width: 100%" rows="4">:Root_Hash:</textarea>
+      </div>
+	    
     </div>
     </div>
   
@@ -94,7 +119,7 @@
             <p> DMetaHash is a 53-bit integer hash encoded in Base64 string.</p>
             <br>
             
-            <p> Users may enter some random text in the text box on the left above and press the DMetaHash button in the middle, OR enter the following in browser console 
+            <p> Users may enter the Contract text in the top left text box above and press the DMetaHash button to generate the Contract Contents Hash, OR enter the following in browser console 
             to verify 
             the DMetaHash function for themselves:
 
@@ -104,108 +129,25 @@
             </ul>
             
             <br>
-            <p>We may use the following as input to DMetaHash function:</p>
+            <p>The public keys of Party A and B are shown below. Users may press the HPBKA and HPBKB buttons 
+		    to generate the hash of the public keys.
+		    </p>
 
-            <ul>
-				<li>Cryptocurrency Wallet Address, e.g. BTC, TRX, TRX-USDT</li>  
-				<li>RSA Public Key</li>
-				<li>RSA Private Key</li>
-				<li>Google Document address, or any web address</li>              
-				<li>A Contract between Two or More Parties</li>
-				<li>A complete web page source code</li>
-				<li>A complete or partial program source code</li>
-				<li>One or more DMetaHashes</li>
-            </ul>
-            
             <br>
-			<p>Please click on the following address or DMetaHash button (BfMGjHy9zQ==) for detailed explanations
-			of each of the use cases above:
-			</p>
+	    <p>Next, the user may press the DMC3 button to copy the DMC3 Triplets, then ROOT to generate
+		the Root Hash --- hash of DMC3 Triplets.
+		</p>
+		  
+	    <p>Finally, the user may go to the end of this page, click on the Readable button to generate a copy of Human Readable DMC.
+		  </p>
 
-<ul>
-	
-	<li> <a href="https://docs.google.com/document/d/19ACrifvOwK3-8cmeuuVvYeDdc5E24TAY20faZWErivo"> 
-		https://docs.google.com/document/d/19ACrifvOwK3-8cmeuuVvYeDdc5E24TAY20faZWErivo </a> </li>
-</ul>
-
-<!--
-<button onclick="location.href='http://www.example.com'" type="button">
-         www.example.com</button>
--->
-
-<button onclick="window.open(HT['BfMGjHy9zQ=='], '_blank').focus()" type="button">BfMGjHy9zQ==</button>
-
-<br><br>
-The button is defined with:
-<br><br>
-<code>&lt;button onclick="window.open(HT['BfMGjHy9zQ=='], '_blank').focus()" type="button"&gt;</code>
-<br><br>
-where
-<br><br>
-<code>
-var HT = {<br> 
-  "D0uZDibksg==": "https://docs.google.com/document/d/1U_fN6fbh....", <br>
-  "Axy7Lh5jbw==": "https://docs.google.com/document/d/1ZfeoglyO....", <br>
-  "BfMGjHy9zQ==": "https://docs.google.com/document/d/19ACrifvO...." <br>}
- </code>
-
-<br><br>
-<code>HT</code> is a simplified hash table that uses DMetaHash as the indices to the web address.
 
 		</div>
       </div>
   
-  
-  </div>
-		
-		
-      <div class="row col-lg-12">
-        <div class="well">
-          <h3>
-            <p> Decentralized Metaverse could be something very abstract to many people. 
-            <br> <p>However, it can be constructed based
-              on something very practical and specific — DMetaHash.         
-            <br>
-            <p> DMetaHash is a 53-bit integer hash encoded in Base64 string.</p>
-            <br>
-            <p> Users may enter some random text in the text box on the left above and press the Hash button in the middle, OR enter the following in browser console 
-            to verify 
-            the DMetaHash function for themselves:
-
-            <ul>
-				<li>bnToB64(cyrb53($('#input2').val()))) </li>  
-				<li>bnToB64(cyrb53('anystring')) </li>              
-            </ul>
-
-            <br><p>As the world is hyping about Metaverse, few have raised concern, let alone proposed
-          solutions to the real menace — CENTRALIZATION. 
-            <br>
-            </p><p> The first innovation of DMeta comes from an unsuspected category: hash functions. 
-            <br>
-            </p><p> By generating hashes of URI, we create alternative, decentralized indices of objects or
-              pages, previously controlled by centralized platforms, such as Google Drive, Twitter, etc.
-            <br>
-            </p><p> We call these hashes of URI objects HURRAY, as objects are equivalent to arrays in 
-              most programming languages.
-            <br>
-            </p><p> The first practical application HURRAY is HYPERCOMPOSITION. Although sounding avant garde, 
-              hypercomposition is simply the process of composing hypertext, which has been hindered by the 
-              many layers of tools, instead of helping the writer organize his (her, etc.) thoughts and write
-              freely.
-            <br>
-            </p><p> For example, when author A (Adam) first composed an article (A1) on Google Document, it was saved with 
-              the following URI:
-              <br>
-              https://docs.google.com/document/d/1U_fN6fbhdHBUnbibeWhgwtDbDFLSeSk3wu60VVo9ykw/
-            <br>
-            </p><p> A few days later, Adam wrote another article (A2), saved with the folloing URI:
-              https://docs.google.com/document/d/1ZfeoglyOo5FLjplUDQ2kgR-Umb0qbql_W7KqpykRaP0/
-            <br>
-            </p><p> When Adam wishes to copy parts of articles A1 and A2 to party B (Brian), he may use HURRAY 
-              of A1 and A2 as reference to share with Brian.
-          </p></h3>
-          https://travistidwell.com/jsencrypt/demo/index.html
-          <!-- newad 
+	<!-- div class="well">
+		div well
+           newad 
           <ins class="adsbygoogle"
           style="display:block"
           data-ad-client="ca-pub-1902035200208763"
@@ -215,25 +157,22 @@ var HT = {<br>
           <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
-          -->
-        </div>
-      <!-- /div -->
-	  <!-- /div -->
-	  <!-- </div> -->
-  	  <!-- </div> -->
-  
-<div class="panel panel-default">
+        </div -->
+
+		<div class="row col-lg-12">
+        
+  <div class="panel panel-default">
     <div class="panel-heading">
 	<h3>Party A</h3> <!-- </div> -->
     
     <div class="row">
       <div class="col-lg-2">
         <label>&nbsp;</label><br>
-        <button id="execute2" class="btn btn-primary">DMetaHash</button>
+        <button id="bhpbka" class="btn btn-primary">HPBKA</button>
       </div>
       <div class="col-lg-5">
-        <label for="crypted">DMetaHash of Public Key:</label><br>
-        <textarea id="crypted2" name="crypted" style="width: 100%" rows="1"></textarea>
+        <label for="crypted">DMetaHash of Public Key A:</label><br>
+        <textarea id="hpbka" name="crypted" style="width: 100%" rows="1">:PBKA_Hash:</textarea>
       </div>
     </div>
 
@@ -319,11 +258,11 @@ var HT = {<br>
       <!-- div class="col-lg-2" -->
 	<div class="col-lg-2">
           <label>&nbsp;</label><br>
-          <button id="execute2" class="btn btn-primary">DMetaHash</button>
+          <button id="bhpbkb" class="btn btn-primary">HPBKB</button>
 	</div>
       	<div class="col-lg-5">
-	  <label for="crypted">DMetaHash of Public Key:</label><br>
-  	  <textarea id="crypted2" name="crypted" style="width: 100%" rows="1"></textarea>
+	  <label for="crypted">DMetaHash of Public Key B:</label><br>
+  	  <textarea id="hpbkb" name="crypted" style="width: 100%" rows="1">:PBKB_Hash:</textarea>
         </div>    
       </div>
 		  
@@ -430,7 +369,7 @@ var HT = {<br>
       }
     });
 
-	$('#execute2').click(function () {
+    $('#execute2').click(function () {
 
       // Create the encryption object.
       var crypt = new JSEncrypt();
@@ -454,6 +393,137 @@ var HT = {<br>
       if (input) {
         // $('#crypted2').val(crypt.encrypt(input));
         $('#crypted2').val(bnToB64(cyrb53($('#input2').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
+    $('#bdmc3').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#hpbka').val();
+      var crypted = $('#crypted2').val();
+
+	  console.log('input2 1124 2110');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#crypted2').val(bnToB64(cyrb53($('#input2').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+	    
+      $('#dmc3').val($('#crypted2').val() +' '+ $('#hpbka').val() +' '+ $('#hpbkb').val());
+    
+    });
+
+    $('#bhpbka').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey').val();
+      var crypted = $('#hpbka').val();
+
+	  console.log('input2 1124 2110');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#hpbka').val(bnToB64(cyrb53($('#pubkey').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
+    $('#bhpbkb').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey2').val();
+      var crypted = $('#hpbkb').val();
+
+	  console.log('hpbkb 1128 1145');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#hpbkb').val(bnToB64(cyrb53($('#pubkey2').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
+    $('#bdmchr').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey2').val();
+      var crypted = $('#hpbkb').val();
+
+      console.log('dmchr 1128 1835');
+	    
+      var dt = new Date();
+
+      $('#dmchr').val( "On this day\n"+ dt.toString() +",\n"+ "Party A Adam Smith, having public key hash "+$('#hpbka').val() 
+        +"\nand\n"+ "Party B Brian Gates, having public key hash "+ $('#hpbkb').val()
+        +"\nhave agreed on a Decentralized Meta Contract \nbearing hash"
+	+' '+ $('#crypted2').val() +"\n\n"+ 'ROOT Hash: '+ $('#hash4').val() );
+	    
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#hpbkb').val(bnToB64(cyrb53($('#pubkey2').val())));
+        // bnToB64(cyrb53($('#input2').val()))  
+        // $('#input2').val('');
+      }
+      else if (crypted) {
+        var decrypted = crypt.decrypt(crypted);
+        if (!decrypted)
+          decrypted = 'This is a test!';
+        $('#input2').val(decrypted);
+        $('#crypted2').val('');
+      }
+    });
+
+	  
+    $('#bhash4').click(function () {
+
+      // Get the input and crypted values.
+      var input = $('#pubkey').val();
+      var crypted = $('#hpbka').val();
+
+	  console.log('bhash4 1128 1130');
+
+      // Alternate the values.
+      if (input) {
+        // $('#crypted2').val(crypt.encrypt(input));
+        $('#hash4').val(bnToB64(cyrb53($('#dmc3').val())));
         // bnToB64(cyrb53($('#input2').val()))  
         // $('#input2').val('');
       }
@@ -589,7 +659,33 @@ function bnToB64(bn) {
   
 </script>
 
-</div>
+	</div>
+
+<style type="text/css">
+ta_hr {
+ width: 300px;
+ height: 100px;
+ background-color: yellow;
+ font-size: 1em;
+ font-weight: bold;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ border: 1px solid black;
+}
+</style>
+		
+	<div class="well">
+	  <div class="col-lg-6">
+	    <label for="privkey"><h2>Human Readable DMC</h2></label> 
+	    <button id="bdmchr" class="btn btn-primary">Readable</button>
+            <large>
+              <textarea id="dmchr" rows="15" style="width:100%;font-size:18px;"></textarea>
+            </large>
+          </div>		  
+	</div>
+		
+    </div>
+		
+		
 
 </div>
 
