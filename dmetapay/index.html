@@ -65,7 +65,10 @@
       id  = "001"
       nn  = "anon"
       
-      window.location = u_ngrok +"/dmeta/tron.php?tnn="+tnn+"&id="+id+"&nn="+nn
+      h_pm = window.location.toString().split('?')[1]
+      h = h_pm.split('=')[1]
+      
+      window.location = u_ngrok +"/dmeta/tron.php?tnn="+tnn+"&id="+id+"&nn="+nn+"&h="+h
 
     }
     else // if (param.length == 0)
