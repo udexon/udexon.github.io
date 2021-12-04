@@ -16,50 +16,52 @@
     
     if (typeof window.location.toString().split('?')[1] !== "undefined") {
     
-    param = window.location.toString().split('?')[1].split('&')
+      param = window.location.toString().split('?')[1].split('&')
     
-    // duid = window.location.toString().split('?')[1].split('-')
+      // duid = window.location.toString().split('?')[1].split('-')
     
-    duid = param[0].split('-')
+      duid = param[0].split('-')
       
-    if (duid.length > 1) 
-    {
-      tnn = duid[0]
-      id = duid[1]
-    }
-    else
-    {
-      nn = duid[0]
-      // must redirect to default duid adam-001
-    }
+      if (duid.length > 1) 
+      {
+        tnn = duid[0]
+        id = duid[1]
+      }
+      else
+      {
+        nn = duid[0]
+        // must redirect to default duid adam-001
+      }
     
     
-    if (param.length > 1) 
-    {
-      nn = param[1]
-    }
-    else if (param.length == 0)
-    {
-      tnn = "adam"
-      id  = "001"
-      nn  = "anon"
-    }
-    else
-    {
-      nn = "anon"
-    }
+      if (param.length > 1) 
+      {
+        nn = param[1]
+      }
+      else if (param.length == 0)
+      {
+        tnn = "adam"
+        id  = "001"
+        nn  = "anon"
+      }
+      else
+      {
+        nn = "anon"
+      }
     
-    console.log( '  param.length '+ param.length )
+      console.log( '  param.length '+ param.length )
     
-    alert( '2021 10 23 + nn '+ nn +' '+ window.location.toString() +' + end' )
+      alert( '2021 12 04 + nn '+ nn +' '+ window.location.toString() +' + end' )
     
-    // window.location = "https://add5-113-211-144-109.ngrok.io/Duniix/duid-nn.php?nn=adam"
+      // window.location = "https://add5-113-211-144-109.ngrok.io/Duniix/duid-nn.php?nn=adam"
     
-    // window.location = "https://add5-113-211-144-109.ngrok.io/Duniix/duid-nn.php?nn="+nn+"&id="+id
+      // window.location = "https://add5-113-211-144-109.ngrok.io/Duniix/duid-nn.php?nn="+nn+"&id="+id
     
-    // window.location = u_ngrok +"/Duniix/duid-nn.php?nn="+nn+"&id="+id
+      // window.location = u_ngrok +"/Duniix/duid-nn.php?nn="+nn+"&id="+id
     
-    // window.location = u_ngrok +"/duniix/1lsd.php?tnn="+tnn+"&id="+id+"&nn="+nn
+      // window.location = u_ngrok +"/duniix/1lsd.php?tnn="+tnn+"&id="+id+"&nn="+nn
+      
+      window.location = u_ngrok +"/dmeta/1lsd.php?tnn="+tnn+"&id="+id+"&nn="+nn
 
     }
     else // if (param.length == 0)
@@ -76,7 +78,7 @@
     
     // window.location = 'https://docs.google.com/document/d/1U_fN6fbhdHBUnbibeWhgwtDbDFLSeSk3wu60VVo9ykw/'
     
-    const cyrb53 = function(str, seed = 0) {
+const cyrb53 = function(str, seed = 0) {
     let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
     for (let i = 0, ch; i < str.length; i++) {
         ch = str.charCodeAt(i);
