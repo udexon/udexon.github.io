@@ -3,6 +3,8 @@
 
 - _Part I of setting up DMeta Server consists of downloading dmeta.tgz source file and installing them to a Linux webserver directory __on your own mobile phone OR desktop computer__. This will be given elsewhere as most experienced programmers do not need a tutorial for this part._
 
+- _Running DMeta Server __on your own mobile phone OR desktop computer__ is the most crucial step to __build OUR OWN Decentralised Metaverse__, hence the name DMeta._
+
 1. The most common first step in setting up your own web server is to obtain a domain name, e.g. www.example.com.
 
 Although this step is inexpensive, we shall demonstrate how this can be done for FREE, as we need a method that can be scaled, to encourage as many people as possible to join DMeta Decentralised Metaverse. 
