@@ -23,8 +23,15 @@ Figure 2 shows DMeta Server home page, with a very long tunnel address.
 - Figure 2
 <img src="https://github.com/udexon/udexon.github.io/blob/main/dmeta/img/dmeta_home.png" width=800>
 
+
+2. Figure 3 shows http://bit.do URL shorterner home page.
+
+- Figure 3
 <img src="https://github.com/udexon/udexon.github.io/blob/main/dmeta/img/bitdo.png" width=800>
 
+Figure 4 shows that bit.do/dmeta is being redirected to https://udexon.github.io/dmeta/
+
+- Figure 4
 <img src="https://github.com/udexon/udexon.github.io/blob/main/dmeta/img/bitdo_dmeta.png" width=800>
 
 - https://dashboard.ngrok.com/signup
