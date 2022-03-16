@@ -1,7 +1,7 @@
 # Setting Up DMeta Server
 ## Part II Redirecting Web Browser to DMeta Server
 
-- _Part I of setting up DMeta Server consists of downloading dmeta.tgz source file and installing them to a Linux webserver directory. This will be given elsewhere as most experienced programmers do not need a tutorial for this part._
+- _Part I of setting up DMeta Server consists of downloading dmeta.tgz source file and installing them to a Linux webserver directory __on your own mobile phone OR desktop computer__. This will be given elsewhere as most experienced programmers do not need a tutorial for this part._
 
 1. The most common first step in setting up your own web server is to obtain a domain name, e.g. www.example.com.
 
