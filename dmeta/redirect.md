@@ -11,7 +11,7 @@ The costs of FREEDOM (not just free of charge) is a small inconvenience, that co
 
 - a. Use a URL shorterner service (e.g. http://bit.do) to make a short URL http://bit.do/dmeta
 - b. Redirect bit.do/dmeta to YOUR github.io page. (Now every GitHub user is entitled to one website, without backend server code.)
-- c. Redirect your github.io page to your NGROK tunnel.
+- c. Redirect your github.io page to your NGROK tunnel — you need this because your mobile phone or desktop computer is by default hidden from the external Internet.
 
 Figure 1 shows http://bit.do/dmeta is entered in the address bar of the web browser.
 
