@@ -1,3 +1,6 @@
+# Setting Up DMeta Server
+## Part II Redirecting Web Browser to DMeta Server
+
 <img src="https://github.com/udexon/udexon.github.io/blob/main/dmeta/img/dmeta_bitdo.png" width=800>
 
 <img src="https://github.com/udexon/udexon.github.io/blob/main/dmeta/img/dmeta_home.png" width=800>
