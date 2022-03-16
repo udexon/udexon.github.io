@@ -5,7 +5,7 @@
 
 1. The most common first step in setting up your own web server is to obtain a domain name, e.g. www.example.com.
 
-Although this step is inexpensive, we shall demonstrate how this can be done for FREE, as we need a method that can be scaled, to encourage as many people as possible to join DMeta Decentralised Universe. 
+Although this step is inexpensive, we shall demonstrate how this can be done for FREE, as we need a method that can be scaled, to encourage as many people as possible to join DMeta Decentralised Metaverse. 
 
 The costs of FREEDOM (not just free of charge) is a small inconvenience, that consists of the following steps:
 
