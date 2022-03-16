@@ -19,5 +19,9 @@
 // console.log( '2021 11 13' )
 // u_ngrok = 'https://f1bb-2001-d08-2286-ee03-b2b6-ecbe-de34-8e15.ngrok.io'
 
-console.log( '2021 12 10' )
-u_ngrok = 'http://1c6c-2001-d08-1b83-8b94-60cc-afe9-8dd8-e547.ngrok.io'
+// console.log( '2021 12 10' )
+// u_ngrok = 'http://1c6c-2001-d08-1b83-8b94-60cc-afe9-8dd8-e547.ngrok.io'
+
+// https://032f-2001-d08-2297-2f21-5afc-c90c-aac4-ab0c.ngrok.io/dmeta/tron.php?nn=adam
+console.log( '2022 03 16' )
+u_ngrok = 'https://032f-2001-d08-2297-2f21-5afc-c90c-aac4-ab0c.ngrok.io'
