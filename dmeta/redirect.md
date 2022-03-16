@@ -34,10 +34,12 @@ Figure 4 shows that bit.do/dmeta is being redirected to https://udexon.github.io
 - Figure 4
 <img src="https://github.com/udexon/udexon.github.io/blob/main/dmeta/img/bitdo_dmeta.png" width=800>
 
-- https://dashboard.ngrok.com/signup
 
 
 3. One crucial step in setting NGROK tunnel is to sign up with NGROK using your GitHub account. By doing so, you will be given an authtoken, which will entitle you to a persistent tunnel that can be opened until you shut it down. Otherwise, an anonymous free tunnel will be closed in only a few hours.
+
+- https://dashboard.ngrok.com/signup
+
 
 - Figure 5: NGROK sign up page — you may sign up and login using your GitHub account. 
 <img src="https://github.com/udexon/udexon.github.io/blob/main/dmeta/img/ngrok_signup.png" width=800>
